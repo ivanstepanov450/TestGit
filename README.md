@@ -15,3 +15,5 @@
 ```bash
 g++ -std=c++17 -Wall -Wextra -O2 hello.cpp -o hello
 ./hello
+
+Без изменений
