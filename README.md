@@ -13,5 +13,8 @@
 
 ## Сборка и запуск
 ```bash
-g++ -std=c++17 -Wall -Wextra -O2 hello.cpp -o hello
-./hello
+g++ -std=c++17 -Wall -Wextra -O2 simple.cpp -o simple
+./simple
+
+## Изменения
+v1 - Добавлена интерактивность в код, можно выбирать число от которого будет вычисляться фактериал

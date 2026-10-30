@@ -8,8 +8,8 @@ unsigned long long factorial(int n) {
 }
 
 int main() {
-    for (int n : {0, 1, 5, 10}) {
-        std::cout << "factorial(" << n << ") = " << factorial(n) << "\n";
-    }
-    return 0;
+    int n;
+    std::cout << "n = ";
+    if (!(std::cin >> n)) return 1;
+    std::cout << n << "! = " << factorial(n) << "\n";
 }
